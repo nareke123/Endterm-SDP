@@ -1,3 +1,5 @@
+package Models;
+
 import Interfaces.Product;
 
 public class Clothing implements Product {

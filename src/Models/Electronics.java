@@ -1,3 +1,5 @@
+package Models;
+
 import Interfaces.Product;
 
 public class Electronics implements Product {
