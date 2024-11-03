@@ -1,0 +1,41 @@
+This project is a product and shopping cart management system
+
+Singleton Pattern (Cart):
+    The Cart class implements the Singleton pattern,
+    which ensures that only one instance of the shopping cart is created.
+    Main methods:
+
+Abstract Factory Pattern (Product and Factories)
+    The Product interface and its implementations (Clothing, Electronics)
+    create an abstraction for various types of products.
+
+Decorator Pattern (ProductDecorator and DiscountDecorator)
+    The Product Decorator class and its Discount Decorator extension implement the Decorator pattern.
+    This pattern allows you to dynamically add additional functions to objects
+
+Proxy Pattern (Payment and PaymentProxy)
+    The Payment class is a real object for processing payments,
+    and PaymentProxy controls access to this object.
+    The proxy allows you to check whether the user is authenticated before making a payment.
+
+Command Pattern (CartCommand, AddItemCommand, RemoveItemCommand)
+    The Cat Command interface and its implementations (AddItemCommand, RemoveItemCommand) implement
+    the Command pattern, which allows you to encapsulate the operations of adding and removing items in the cart.
+
+Observer Pattern (Observer and ProductNotifier)
+    The Observer interface and the Product Notifier class implement the Observer pattern. This pattern
+    allows objects (observers) to receive notifications about changes in other objects (publishers).
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+The general functionality of the project
+
+Shopping Cart Management: Users can add and remove items from the shopping cart.
+
+Product Creation: Products can be created by various factories.
+
+Dynamic addition of functionality: Decorators allow you to add additional features to products, such as discounts.
+
+Payment Authentication: The payment proxy verifies the user's authentication before processing the payment.
+
+Notifications: Users can subscribe to notifications about new products.
+///////////////////////////////////////////////////////////////////////
